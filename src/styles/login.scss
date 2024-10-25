@@ -1,0 +1,35 @@
+.login-container{
+    width: -webkit-fill-available;
+    height: auto;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form-container{
+        padding: 20px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 50%;
+        width: -webkit-fill-available;
+        background-color: #e7e7e7;
+        border-radius: 48px;
+        .inner-container{
+            min-width: 361px;
+            max-width: 361px;
+        }
+    }
+}
+
+.login-form{
+    color: #434343;
+    .title{
+        text-align: center;
+    }
+    .custom-btn{
+        margin-top: 100px;
+        width: -webkit-fill-available;
+    }
+}
