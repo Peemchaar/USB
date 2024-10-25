@@ -28,6 +28,11 @@ const AddStudent = (props) => {
 
         localStorage.setItem("estudiantes", JSON.stringify(newArray));
 
+        setForm({ 
+            nombre: '',
+            email: '',
+            cedula: '',
+        })
         props.submited()
     }
 

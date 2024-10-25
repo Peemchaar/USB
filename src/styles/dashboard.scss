@@ -11,3 +11,13 @@
         color: colors.$value-black;
     }
 }
+
+
+.register-form{
+    width: 35%;
+    min-width: 600px;
+    border-radius: 24px;
+    background-color: colors.$value-snow;
+    padding: 0px 18px 18px;
+    border: 1px solid colors.$border-light;
+}
